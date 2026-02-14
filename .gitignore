@@ -1,0 +1,16 @@
+# OpenClaw local state (do not commit)
+.openclaw/
+**/credentials/
+**/agents/
+**/sessions/
+openclaw.json
+openclaw.json.bak
+restart-sentinel.json
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Secrets / local keys
+*.key
+.state_key
